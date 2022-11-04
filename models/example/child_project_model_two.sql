@@ -2,5 +2,5 @@
 -- Use the `ref` function to select from other models
 
 select *
-from {{ ref('my_first_dbt_model') }}
+from {{ ref('child_project_model_one') }}
 where id = 1
