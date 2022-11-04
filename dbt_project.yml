@@ -34,6 +34,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_multi_project_child:
 
+    example: 
+      +schema: example
+
+  dbt_multi_project_parent:
+
 
     # Applies to all files under models/example/
     parent_project_sources:
