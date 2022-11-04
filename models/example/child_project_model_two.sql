@@ -3,4 +3,4 @@
 
 select *
 from {{ ref('child_project_model_one') }}
-where id = 1
+where order_key = 45697
